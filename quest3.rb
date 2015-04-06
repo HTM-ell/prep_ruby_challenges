@@ -5,5 +5,5 @@ def uniques(array)
   array | array 
 end
 
-puts uniques([1,5,"frog",2,1,3,"frog"])
+puts uniques([1,5,"frog",2,1,3,"frog",1,1,1,1,1,1,1,])
 #The reason this works is because when using set operations, the #resulting array is treated as a set, which is a data structure #hat usually has no repeat values
